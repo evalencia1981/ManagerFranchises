@@ -1,7 +1,8 @@
-package com.ManagerFranchises.infrastructure.repository;
+package com.managerfranchises.infrastructure.repository;
 
-import com.ManagerFranchises.domain.model.branch;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.managerfranchises.domain.model.branch;
 
 public interface branchRepository extends JpaRepository<branch, Long> {
 }
