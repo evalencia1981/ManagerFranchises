@@ -1,11 +1,12 @@
-package com.ManagerFranchises.web.controller;
+package com.managerfranchises.web.controller;
 
-import com.ManagerFranchises.domain.model.product;
-import com.ManagerFranchises.service.productService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.managerfranchises.domain.model.product;
+import com.managerfranchises.service.productService;
 
 import java.util.List;
 

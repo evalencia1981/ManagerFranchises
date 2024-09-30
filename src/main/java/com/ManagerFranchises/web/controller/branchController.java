@@ -1,13 +1,14 @@
-package com.ManagerFranchises.web.controller;
+package com.managerfranchises.web.controller;
 
-import com.ManagerFranchises.domain.model.branch;
-import com.ManagerFranchises.service.branchService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.managerfranchises.domain.model.branch;
+import com.managerfranchises.service.branchService;
 
 import java.util.List;
 
