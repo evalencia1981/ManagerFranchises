@@ -1,4 +1,4 @@
-package com.managerfranchises.domain.model;
+package com.ManagerFranchises.domain.model;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;
