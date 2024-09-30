@@ -1,4 +1,4 @@
-package com.managerfranchises.web.controller;
+package com.ManagerFranchises.web.controller;
 
 import org.springframework.http.ResponseEntity;
 //import org.springframework.ui.Model;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.managerfranchises.domain.model.franchise;
-import com.managerfranchises.service.franchiseService;
+import com.ManagerFranchises.domain.model.franchise;
+import com.ManagerFranchises.service.franchiseService;
 
 //import com.franchise.infrastructure.repository.franchiseRepository; // Change to uppercase
 import org.slf4j.Logger;
