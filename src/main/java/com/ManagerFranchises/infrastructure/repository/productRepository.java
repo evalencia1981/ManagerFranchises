@@ -1,8 +1,8 @@
-package com.managerfranchises.infrastructure.repository;
+package com.ManagerFranchises.infrastructure.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.managerfranchises.domain.model.product;
+import com.ManagerFranchises.domain.model.product;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package com.managerfranchises.service;
+package com.ManagerFranchises.service;
 
 import org.springframework.stereotype.Service;
 
-import com.managerfranchises.domain.model.franchise;
-import com.managerfranchises.infrastructure.repository.franchiseRepository;
+import com.ManagerFranchises.domain.model.franchise;
+import com.ManagerFranchises.infrastructure.repository.franchiseRepository;
 
 import java.util.List;
 import java.util.Optional;

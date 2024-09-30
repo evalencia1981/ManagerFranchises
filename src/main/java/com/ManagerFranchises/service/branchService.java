@@ -1,10 +1,10 @@
-package com.managerfranchises.service;
+package com.ManagerFranchises.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.managerfranchises.domain.model.branch;
-import com.managerfranchises.infrastructure.repository.branchRepository;
+import com.ManagerFranchises.domain.model.branch;
+import com.ManagerFranchises.infrastructure.repository.branchRepository;
 
 import java.util.List;
 import java.util.Optional;
