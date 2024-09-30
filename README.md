@@ -104,13 +104,17 @@ spring.datasource.password=${JDBC_DATABASE_PASSWORD}
 2. heroku git:clone -a nameaplication
 3. cd nameaplication
 4. git add .
-5. push heroku main 
+5. git push heroku main 
 
 ## Deploy not changes
 
+1. heroku login
+2. heroku git:clone -a nameaplication
+3. cd nameaplication
 1. git branch
 2. git checkout main
 3. git push heroku main
 4. heroku repo:reset -a namaplication
-5. git commit --allow-empty -m "Re-deploy not chnages"
-6. git push heroku main
+6. heroku logs --tail -a namaplication
+7. git commit --allow-empty -m "Re-deploy not chnages"
+8. git push heroku main
