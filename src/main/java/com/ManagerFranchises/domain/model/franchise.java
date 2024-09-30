@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 // con lombok tambien se puede implementar 
 @Entity
 @Table(name = "franchises")
-public class franchise { // Cambiar a mayúscula
+public class franchise {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

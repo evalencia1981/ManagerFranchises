@@ -16,8 +16,7 @@ public class branch {
     @ManyToOne
     @JoinColumn(name = "franchise_id", nullable = false) // Referencia a la tabla de franquicias
     @JsonBackReference
-    private franchise franchise; // Propiedad que referencia a Franchise
-
+    private franchise franchise;
     @Column(name = "name", nullable = false)
     private String name; // Name of the branch (cannot be null)
 
