@@ -3,6 +3,7 @@ package com.ManagerFranchises.domain.model;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 import java.util.List;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 // con lombok tambien se puede implementar 
 @Entity
@@ -27,6 +28,7 @@ public class franchise { // Cambiar a mayúscula
 
     // Relaciones
     @OneToMany(mappedBy = "franchise", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonManagedReference
     private List<branch> branches; // Cambiar a mayúscula
 
     // Getters y Setters
