@@ -1,4 +1,4 @@
-package com.ManagerFranchises.domain.model;
+package com.managerfranchises.domain.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
