@@ -14,7 +14,7 @@ public class product {
     private Integer id; // Primary key, auto-incremented
 
     @ManyToOne
-    @JoinColumn(name = "branche_id", nullable = false) // Referencia a la tabla de sucursales
+    @JoinColumn(name = "branche_id", nullable = false)
     private branch branch; // Propiedad que referencia a branch
 
     @Column(name = "name", nullable = false)
