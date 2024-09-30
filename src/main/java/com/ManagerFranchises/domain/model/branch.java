@@ -2,8 +2,7 @@ package com.ManagerFranchises.domain.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 
 // con lombok tambien se puede implementar 
 @Entity
@@ -16,7 +15,7 @@ public class branch {
 
     @ManyToOne
     @JoinColumn(name = "franchise_id", nullable = false) // Referencia a la tabla de franquicias
-    @JsonIgnore
+    @JsonBackReference
     private franchise franchise; // Propiedad que referencia a Franchise
 
     @Column(name = "name", nullable = false)
