@@ -1,4 +1,4 @@
-package com.ManagerFranchises.ManagerFranchises;
+package com.managerfranchises;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
